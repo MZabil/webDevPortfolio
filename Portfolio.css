@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(29, 29, 29);
+  font-family: "Oswald", sans-serif;
+  background-color: #f4f4fc;
+}
+
+#home {
+  width: 100%;
+  background-color: #f8c812;
+  display: flex;
+  border-bottom-right-radius: 30%;
+  padding-bottom: 50px;
+}
+
+.name {
+  text-align: center;
+}
+
+.name h1 {
+  padding: 130px 75px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.special {
+  background: rgb(29, 29, 29);
+  color: rgb(240, 240, 240);
+  border-radius: 20px;
+}
+
+.flexy {
+  display: flex;
+  justify-content: center;
+}
+
+.flexy h4 {
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.pic img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  .name h1 {
+    padding: 100px 50px;
+    font-size: 50px;
+  }
+  .pic img {
+    padding-top: 10vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  .name h1 {
+    padding: 100px 25px;
+    font-size: 40px;
+  }
+  .pic img {
+    padding-top: 20vh;
+  }
+}
+#about {
+  display: flex;
+  margin-top: 150px;
+}
+
+.aboutHeading {
+  color: #2b54f8;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+#about p {
+  margin: 0px 100px;
+  font-size: 25px;
+}
+
+.myPics {
+  margin-left: 75px;
+}
+
+.myPics img {
+  transition: all 1.5s ease-in-out;
+}
+
+.myPics img:hover {
+  transform: scale(1.5);
+}
+
+.img1 {
+  margin-left: 100px;
+  margin-bottom: 5px;
+  border: 2px solid rgb(19, 19, 19);
+}
+
+.skills, #contact {
+  background-color: #f8c812;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.skills h2, #contact h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.icons, .words {
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.words {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.note {
+  margin: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.fa-java {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 850px) {
+  .myPics {
+    margin-left: 25vw;
+  }
+  #about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #about p {
+    margin: 0px 50px;
+  }
+  #about h2 {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .icons, .words {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .icons i, .words i {
+    margin: 30px;
+  }
+  .words {
+    border-top: 2px solid black;
+    font-size: 25px;
+  }
+  .icons p, .words p {
+    margin: 20px;
+  }
+  .myPics {
+    margin-left: 2vw;
+  }
+}
+#contact h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#contact a {
+  font-size: 60px;
+  text-decoration: none;
+  margin: 0px 20px;
+  color: rgb(19, 19, 19);
+}
+
+#contact a:hover {
+  color: gray;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#projects h2 {
+  font-size: 55px;
+  text-align: center;
+  margin: 100px 0px;
+  text-decoration: underline;
+}
+
+#projects img {
+  width: 300px;
+  height: 300px;
+  margin-left: 120px;
+  transition: all 1.5s ease-in-out;
+}
+
+#projects img:hover {
+  transform: scale(1.3);
+}
+
+#projects h3 {
+  font-size: 40px;
+  margin: 20px 100px;
+}
+
+#projects p {
+  font-size: 25px;
+  margin: 20px 100px;
+}
+
+.project {
+  display: flex;
+}
+
+.divider {
+  border: 2px solid rgb(49, 49, 49);
+  margin: 15px 0px;
+}
+
+@media screen and (max-width: 850px) {
+  #projects img {
+    margin-left: 14vw;
+    width: 75vw;
+  }
+  #projects h3 {
+    text-align: center;
+  }
+  .project {
+    flex-wrap: wrap;
+  }
+}
+.small {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.small img {
+  margin: 20px;
+}/*# sourceMappingURL=Portfolio.css.map */

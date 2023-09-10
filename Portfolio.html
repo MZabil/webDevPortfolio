@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Zabil's Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="Turtle.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Portfolio.css" />
+
+    <script
+      src="https://kit.fontawesome.com/73800f79be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NavBar Section-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <i class="navbar-brand fa-solid fa-laptop-code"> Zabil's Portfolio</i>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about"> About Me </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects"> Projects </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- homepage section-->
+    <div id="home">
+      <div class="name">
+        <h1>
+          Hello! I'm <br />
+          <div class="special">Muhammad Zabil</div>
+          A full-stack web developer
+        </h1>
+      </div>
+      <div class="pic">
+        <img src="Coder.png" alt="Coder pic" />
+        <div class="flexy">
+          <h4 class="special">
+            <i class="fa-solid fa-plus"></i> Attention to detail <br />
+            <i class="fa-solid fa-plus"></i> Responsive Design <br />
+            <i class="fa-solid fa-plus"></i> Team player <br />
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- About section-->
+    <div id="about">
+      <div class="myPics">
+        <div class="img1">
+          <img src="Face.png" alt="my picture" />
+        </div>
+        <div class="img2">
+          <img src="myCode.png" alt="my code" />
+        </div>
+      </div>
+      <div class="text">
+        <h2 class="aboutHeading">About Me</h2>
+        <p>
+          Hi! I'm Zabil, <br />
+          A <span class="aboutHeading">19</span> year old full-stack
+          <span class="aboutHeading">MERN</span> developer from
+          <span class="aboutHeading">Islamabad/Rawalpindi.</span>. I'm currently
+          a <span class="aboutHeading">2nd year</span> student at
+          <span class="aboutHeading">NUST</span> studying
+          <span class="aboutHeading">software engineering.</span> I decided to
+          learn MERN stack development over my
+          <span class="aboutHeading">1st year's summer break</span>. Now that
+          I've completed that, I'm looking to improve my skills by
+          <span class="aboutHeading">working</span> in the industry.
+        </p>
+      </div>
+    </div>
+    <div class="skills">
+      <h2>My skillset:</h2>
+      <div class="icons">
+        <i class="fab fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-sass"></i>
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-square-js"></i>
+        <i class="fa-brands fa-react"></i>
+        <i class="fa-brands fa-node"></i>
+        <i class="fa-solid fa-database"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <div class="words">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p style="margin-left: 15px">SASS</p>
+        <p style="margin-left: 15px">Bootstrap</p>
+        <p>javaScript</p>
+        <p>React</p>
+        <p>nodeJS</p>
+        <p>mongoDB</p>
+        <p>github</p>
+      </div>
+      <div class="note">
+       <em> <p> I also know some C++, <i class="fa-brands fa-java"></i> (java) and
+        object-oriented programming. (Courses I've completed in university)</p> </em>
+      </div>
+    </div>
+
+    <!-- Projects section-->
+    <div id="projects">
+      <h2 class="aboutHeading">Projects</h2>
+
+      <div class="divider"></div>
+      <div class="project">
+        <div class="projectImg">
+          <img src="FoodSite.png" alt="food site pic" />
+        </div>
+        <div class="projectDescription">
+          <a target="_blank" href=""><h3>Food Website</h3></a>
+          <p>
+            This is my main project. Upon completing the full stack course, I
+            built this project to showcase my skills. It is a food ordering
+            website where the food details are stored in a database and then
+            fetched and displayed. The customers can choose to add products of
+            their likings into the cart. Click here for its <a href="">code.</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="project">
+        <div class="projectImg">
+          <img src="Magazine.png" alt="magazine site pic" />
+        </div>
+        <div class="projectDescription">
+          <a target="_blank" href=""><h3>Magazine Website</h3></a>
+          <p>
+            This is one of the projects I made during my online course. It has a
+            magazine style layout to make it appealing to the viewers. Click
+            here for its <a href="">code.</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="project">
+        <div class="projectImg">
+          <img src="Quote.png" alt="random quote machine pic" />
+        </div>
+        <div class="projectDescription">
+          <a target="_blank" href=""><h3>Random Quote Machine</h3></a>
+          <p>
+            This is another project I made during my online course. It is a
+            random quote machine that displays a random quote and changes the
+            screen/test color every time the button is pressed. Click here for
+            its <a href="">code.</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="project">
+        <div class="projectImg">
+          <img src="Editor.png" alt="text editor pic" />
+        </div>
+        <div class="projectDescription">
+          <a target="_blank" href=""><h3>Text Converter</h3></a>
+          <p>
+            This is another project I made during my online course. It allowes
+            the user to enter text into the first field and automatically
+            converts it into HTML in the second field. Click here for its
+            <a href="">code.</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <p>
+        A few of the other 'smaller' projects I've done that I like. Codes for
+        all my projects are on my github.
+      </p>
+      <div class="small project">
+        <img src="Pomodoro.png" alt="pomodoro clock pic" />
+        <img src="Cafe.png" alt="Cafe Menu pic" />
+        <img src="BalanceSheet.png" alt="balance sheet pic" />
+      </div>
+    </div>
+
+    <!-- Contact section-->
+    <div id="contact">
+      <h2>Contact Me</h2>
+      <div class="links">
+        <a href="https://github.com/MZabil" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammad-zabil/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/m.zabil6/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:m.zabil.mehboob@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
